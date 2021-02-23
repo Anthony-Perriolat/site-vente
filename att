@@ -1,0 +1,126 @@
+ <!-- Accordion flush -->
+    <article class="col-12 col-md-6">
+      <div class="accordion  accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item ">
+          <h2 class="accordion-header " id="Benefice">
+            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+              data-bs-target="#Benefice" aria-expanded="false" aria-controls="Benefice">
+              <img src="img/icone/benefice.svg" id="Benefice" class="zoom-icon me-5" alt="">Benefice
+            </button>
+          </h2>
+          <div id="Benefice" class="accordion-collapse collapse show" aria-labelledby="Benefice"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body ">Beneficié d'une optiomisation de votre chiffre d'affaire avec une visibilité
+              sur le web. Votre notorié sur Internert vous procura une augmentation de frequentation de clientele en
+              magasin.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="Accessible">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#Accessible" aria-expanded="false" aria-controls="Accessible">
+              <img src="img/icone/accessible.svg" class="zoom-icon me-5" alt="">Accessible
+            </button>
+          </h2>
+          <div id="Accessible" class="accordion-collapse collapse" aria-labelledby="Accessible"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Notre travaille vise aussi à toucher les personnes en situation d'handicape afin
+              de leur faire accèder aux renseignement les plus preciseux de votre entité. Ces personnes sont trop
+              souvent négligé et cela represente 10% des personne consultant le web </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="Code">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Code"
+              aria-expanded="false" aria-controls="Code">
+              <img src="img/icone/code.svg" class="zoom-icon me-5" alt="">Code
+            </button>
+          </h2>
+          <div id="Code" class="accordion-collapse collapse" aria-labelledby="Code"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Nous vous fournirons une code propre et facilement maintenable qui ne vous
+              engage en rien avec nous techniquement parlant vous serez donc libre de continuer avec d'autre confrere du
+              métier si le coeur vous en dis</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="E-Commerce">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#E-Commerce" aria-expanded="false" aria-controls="E-Commerce">
+              <img src="img/icone/e-commerce.svg" class="zoom-icon me-5" alt="">E-Commerce
+            </button>
+          </h2>
+          <div id="E-Commerce" class="accordion-collapse collapse" aria-labelledby="E-Commerce"
+            data-bs-parent="#E-Commerce">
+            <div class="accordion-body">Grace à notre maitrise nous vous proposons de mettre en oeuvre votre site
+              d'e-commerce en tout simplicité afin de touche une clientel plus large.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="Maintenance">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#Maintenance" aria-expanded="false" aria-controls="Maintenance">
+              <img src="img/icone/maintenance.svg" class="zoom-icon me-5" alt="">Maintenance
+            </button>
+          </h2>
+          <div id="Maintenance" class="accordion-collapse collapse" aria-labelledby="Maintenance"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Nous assurons une maintence de votre site web qui vous permettra de mettre à
+              jour votre site régulierement selon vos attentes </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="Responsive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#Responsive" aria-expanded="false" aria-controls="Responsive">
+              <img src="img/icone/responsive.svg" class="zoom-icon me-5" alt="">Responsive
+            </button>
+          </h2>
+          <div id="Responsive" class="accordion-collapse collapse" aria-labelledby="Responsive"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Tout nos site sont entierement adaptif pour mobile tout comme ordinateur de
+              bureau. plus de 60% des internaute consule internet sur leurs mobiles.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="Satisfaction">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#Satisfaction" aria-expanded="false" aria-controls="Satisfaction">
+              <img src="img/icone/satisfaction.svg" class="zoom-icon me-5" alt="">Satisfaction
+            </button>
+          </h2>
+          <div id="Satisfaction" class="accordion-collapse collapse" aria-labelledby="Satisfaction"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Nous vous garantissons une satisfaction de votre demande grace à notre
+              professionalisme et notre serieux qui seront les outils de votre réputation sur le web</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="ServiceVerifier">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#ServiceVerifier" aria-expanded="false" aria-controls="ServiceVerifier">
+              <img src="img/icone/serviceVerifier.svg" class="zoom-icon me-5" alt="">Service Verifier
+            </button>
+          </h2>
+          <div id="ServiceVerifier" class="accordion-collapse collapse" aria-labelledby="ServiceVerifier"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Au vue de notre experience dans le domaine, nous sommes a même de vous assurer
+              notre serieux dans notre corps de metier afin de vous apporter le meilleure de nous même.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="Visible">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Visible"
+              aria-expanded="false" aria-controls="Visible">
+              <img src="img/icone/visible.svg" class="zoom-icon me-5" alt="">Visible
+            </button>
+          </h2>
+          <div id="Visible" class="accordion-collapse collapse" aria-labelledby="Visible"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Notre travaille consite à crée des site propre et visible. La visibilité sur
+              internet est primordiale. Un code propre permet un referencement efficae sans avoir de frais
+              supplementaire à fournir.</div>
+          </div>
+        </div>
+      </div>
+    </article>
