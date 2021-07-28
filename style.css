@@ -12,6 +12,10 @@ a{
     color: #25355B!important;
     opacity: 0.90!important;
 }
+.nav-mod:hover{
+    background-color: rgba(249,241,241, 0.75);
+    border-radius: 5px 5px 5px 5px;
+}
 .bg-main{
     background-image: url(img/bg-main.jpg);
     background-repeat: no-repeat;
@@ -20,11 +24,10 @@ a{
     height: 45em;
 }
 .bg-text-bg-main{
-    margin-top: 2em;
     padding: 2em 0em 0em 0em ;
     background-color: rgba(249,241,241, 0.5);
     border-radius: 5px 5px 5px 5px;
-
+    margin-bottom: 15px;
 }
 .btn-mod{
     background-color: #25355B;
@@ -32,7 +35,7 @@ a{
     border: none;
     border-radius: 0px 0px 5px 5px;
     width: 100%;
-    height: 5rem;
+    height: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,13 +65,13 @@ a{
     
 }
 .bg-alternant-2{
-    background-image: #FBFBFD;
+    background-color: #FBFBFD;
 }
 .bg-alternant-3{
     background-color: #25355B;
 }
 .bg-alternant-4{
-    background-image: #FBFBFD;
+    background-color: #FBFBFD;
 }
 .bg-blue{
     background-color: #25355B;
@@ -78,13 +81,7 @@ a{
     transform: scale(1.3);
 }
 
-.bg-end{
-    background-image: url(img/Group14.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: 100%;
-    height: 15rem;
-}
+
 
 li {
  list-style:none
@@ -217,7 +214,7 @@ a {
     background-color: #192027;
 }
 .bg-body{
-    background-image: #FBFBFD;
+    background-color: #FBFBFD;
 }
 main{
     margin-left: auto;
