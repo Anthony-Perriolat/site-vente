@@ -27,9 +27,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav mx-md-2 fs-5">
-                        <a class="nav-link nav-mod" href="{{url('home.blade.php')}}">Accceuil</a>
-                        <a class="nav-link nav-mod" href="{{url('realisation.blade.php')}}">Réaslisation</a>
-                        <a class="nav-link nav-mod" href="{{('equipe.blade.php')}}">Tarification</a>
+                        <a class="nav-link nav-mod" href="{{url('home')}}">Accceuil</a>
+                        <a class="nav-link nav-mod" href="{{url('realisation')}}">Réaslisation</a>
+                        <a class="nav-link nav-mod" href="{{('equipe')}}">Tarification</a>
                         <a class="nav-link nav-mod" href="#">Contact</a>
                     </div>
                 </div>

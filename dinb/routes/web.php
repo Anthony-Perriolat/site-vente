@@ -16,3 +16,9 @@
 $router->get('/', function () use ($router) {
     return view('home');
 });
+$router->get('/realisation', function () use ($router) {
+    return view('realisation');
+});
+$router->get('/equipe', function () use ($router) {
+    return view('/equipe');
+});
