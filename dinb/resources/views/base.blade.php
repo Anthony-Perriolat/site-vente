@@ -29,8 +29,8 @@
                     <div class="navbar-nav mx-md-2 fs-5">
                         <a class="nav-link nav-mod" href="{{url('home')}}">Accceuil</a>
                         <a class="nav-link nav-mod" href="{{url('realisation')}}">Réaslisation</a>
-                        <a class="nav-link nav-mod" href="{{('equipe')}}">Tarification</a>
-                        <a class="nav-link nav-mod" href="#">Contact</a>
+                        <a class="nav-link nav-mod" href="{{url('equipe')}}">Tarification</a>
+                        <a class="nav-link nav-mod" href="{{url('contact')}}">Contact</a>
                     </div>
                 </div>
             </div>
