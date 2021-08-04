@@ -7,13 +7,13 @@
 | Application Routes
 |--------------------------------------------------------------------------
 |
-| Here is where you can register all of the routes for an application.
+| Here is where you can register all of thephp -S localhost:8000 -t public routes for an application.
 | It is a breeze. Simply tell Lumen the URIs it should respond to
 | and give it the Closure to call when that URI is requested.
 |
 */
 
-$router->get('/', 'homeController@home');
-$router->get('/realisation', 'realisationController@realisation');
-$router->get('/equipe', 'equipeController@equipe');
-$router->get('/contact', 'contactController@contact');
+$router->get('/', 'Controller@home');
+$router->get('/realisation', 'Controller@realisation');
+$router->get('/equipe', 'Controller@equipe');
+$router->get('/contact', 'Controller@contact');

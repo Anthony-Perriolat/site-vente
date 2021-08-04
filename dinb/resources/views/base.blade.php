@@ -17,7 +17,7 @@
     <header>
         <nav class="navbar flex-nowrap navbar-expand-lg navbar-light bg-transparent ">
             <div class="container-fluid">
-                <a class="navbar-brand text-dark fs-2" href="home.blade.php">
+                <a class="navbar-brand text-dark fs-2" href="{{url('/')}}">
                     <img src="{{url('img/Logo_DINA.svg')}}" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -27,7 +27,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav mx-md-2 fs-5">
-                        <a class="nav-link nav-mod" href="{{url('home')}}">Accceuil</a>
+                        <a class="nav-link nav-mod" href="{{url('/')}}">Accceuil</a>
                         <a class="nav-link nav-mod" href="{{url('realisation')}}">Réaslisation</a>
                         <a class="nav-link nav-mod" href="{{url('equipe')}}">Tarification</a>
                         <a class="nav-link nav-mod" href="{{url('contact')}}">Contact</a>
