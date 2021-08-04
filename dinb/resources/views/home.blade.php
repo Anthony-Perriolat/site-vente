@@ -1,5 +1,6 @@
 @extends("base")
 @section("content")
+
     <section class="d-flex flex-column">
     <article class="d-flex bg-alternant-1">
         <div class="text-light px-5 py-4 d-flex flex-column justify-content-center">
