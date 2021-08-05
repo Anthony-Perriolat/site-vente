@@ -1,6 +1,63 @@
 @extends("base")
 @section("content")
+    <ul class="cd-gallery">
+        <li class="cd-item">
+            <a href="item-1.html">
+                <div>
+                    <h2>Title 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                    <b>View More</b>
+                </div>
+            </a>
+        </li>
 
+        <li class="cd-item">
+            <a href="{{url('contact')}}">
+                <div>
+                    <h2>Title 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                    <b>View More</b>
+                </div>
+            </a>
+        </li>
+
+        <li class="cd-item">
+            <a class="dark-text" href="item-3.html">
+                <div>
+                    <h2>Title 3</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                    <b>View More</b>
+                </div>
+            </a>
+        </li>
+
+        <li class="cd-item">
+            <a href="item-4.html">
+                <div>
+                    <h2>Title 4</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                    <b>View More</b>
+                </div>
+            </a>
+        </li>
+    </ul> <!-- .cd-gallery -->
+    </main> <!-- .cd-main -->
+
+    <div class="cd-folding-panel">
+
+        <div class="fold-left"></div> <!-- this is the left fold -->
+
+        <div class="fold-right"></div> <!-- this is the right fold -->
+
+        <div class="cd-fold-content">
+            <!-- content will be loaded using javascript -->
+        </div>
+
+        <a class="cd-close" href="#0"></a>
+    </div> <!-- .cd-folding-panel -->
+
+    <script src="{{url('js/jquery-2.1.1.js')}}"></script>
+    <script src="{{url('js/main.js')}}"></script> <!-- Resource jQuery -->
     <section class="d-flex flex-column">
     <article class="d-flex bg-alternant-1">
         <div class="text-light px-5 py-4 d-flex flex-column justify-content-center">
