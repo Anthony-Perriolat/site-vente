@@ -1,6 +1,9 @@
 .text-blue-shadow{
     color: #25355B;
 }
+.bg-blue{
+    background-color: #25355B;
+}
 p{
     line-height: 18px;
 }
@@ -39,13 +42,20 @@ a{
     height: 25px;
     width: 25px;
 }
-.nav-mod{
-    color: #25355B!important;
-    opacity: 0.90!important;
-}
-.nav-mod:hover{
-    background-color: rgba(249,241,241, 0.75);
-    border-radius: 5px 5px 5px 5px;
+@media (min-width:991px) {
+    .nav-mod {
+        color: #25355B !important;
+        opacity: 0.90 !important;
+        width: 10rem;
+        padding: 1rem;
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    .nav-mod:hover {
+        background-color: rgba(249, 241, 241, 0.75);
+        border-radius: 5px 5px 5px 5px;
+    }
 }
 .bg-main{
     background-image: url(../../../img/bg-main.jpg);
@@ -60,7 +70,19 @@ a{
     border-radius: 5px 5px 5px 5px;
     margin-bottom: 15px;
 }
+.hid{
+    display: none;
+}
+.whyChoose{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 50%;
+}
 @media (max-width:991px) {
+    .hid{
+        display: block;
+    }
     .bg-text-bg-main{
         padding: 2em 0em 0em 0em ;
         background-color: rgba(249,241,241, 0.5);
@@ -79,6 +101,10 @@ a{
         position: absolute;
         top: 20px;
         right: 25px;
+    }
+    .navbar-burger{
+        color: #1c1726;
+        border-color: #34bfa3;
     }
     #navbarNavAltMarkup {
         background: #25355B;

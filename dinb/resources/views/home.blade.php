@@ -69,7 +69,7 @@
                 class="col-12 bg-blue py-4 d-flex flex-column align-items-center justify-content-center text-light">
                 <img src="img/Logo_DINA_without_back.svg" alt="">
                 <h3 class="my-3 title-responsive">Pourquoi nous choisir ?</h3>
-                <p class="mx-5">Vous êtes artisan, auto-entrepreneur, fondateur d’une association ou chef d'entreprise ?
+                <p class="whyChoose">Vous êtes artisan, auto-entrepreneur, fondateur d’une association ou chef d'entreprise ?
                     DINB
                     peut
                     créer rapidement pour vous un site web efficace qui apportera une plus-value à votre activité.

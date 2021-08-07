@@ -25,18 +25,18 @@
                 <a class="navbar-brand text-dark fs-2 mobile-logo" href="{{url('/')}}">
                     <img src="{{url('img/Logo_DINA.svg')}}" alt="">
                 </a>
-                <button class="navbar-toggler mobile-nav" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler bg-blue navbar-dark mobile-nav" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup"
                         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <button type="button" class="btn-close mobile-btn-close" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-label="Close"></button>
+                    <button type="button" class="btn-close mobile-btn-close hid" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-label="Close"></button>
                     <div class="navbar-nav mx-md-2 fs-5 mobile-text-nav">
-                        <a class="nav-link-sm nav-mod-sm mobile-text-nav" href="{{url('/')}}">Accceuil</a>
-                        <a class="nav-link-sm nav-mod-sm mobile-text-nav" href="{{url('realisation')}}">Réaslisation</a>
-                        <a class="nav-link-sm nav-mod-sm mobile-text-nav" href="{{url('equipe')}}">Tarification</a>
-                        <a class="nav-link-sm nav-mod-sm mobile-text-nav" href="{{url('contact')}}">Contact</a>
+                        <a class="nav-mod nav-mod-sm mobile-text-nav" href="{{url('/')}}">Accceuil</a>
+                        <a class="nav-mod nav-mod-sm mobile-text-nav" href="{{url('realisation')}}">Réaslisation</a>
+                        <a class="nav-mod nav-mod-sm mobile-text-nav" href="{{url('equipe')}}">Tarification</a>
+                        <a class="nav-mod nav-mod-sm mobile-text-nav" href="{{url('contact')}}">Contact</a>
                     </div>
                 </div>
             </div>
