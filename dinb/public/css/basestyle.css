@@ -1,6 +1,9 @@
 .text-blue-shadow{
     color: #25355B;
 }
+p{
+    line-height: 18px;
+}
 body{
     margin: auto;
     background-color: #FBFBFD;
@@ -21,7 +24,7 @@ a{
     width: 200px;
     height: 60px;
 
-    background-color: #364e85;
+    background-color: #25355B;
     border: #FBFBFD solid 1px;
     border-radius: 4px;
 
@@ -78,16 +81,27 @@ a{
         right: 25px;
     }
     #navbarNavAltMarkup {
-        background: hsla(1,0%,100%,.9);
-        background-size: cover;
+        background: #25355B;
         position: absolute;
         top: 0;
         right: 0;
         left: 0;
         min-height: 100%;
         padding-top: 80px;
+        border-bottom: #364e85 solid 1px;
+        text-align: center;
+    }
+    .mobile-text-nav{
+        color: #FBFBFD;
+        height: 10em;
+    }
+    .mobile-btn-close{
+        position: absolute;
+        top: 25px;
+        right: 10%;
     }
 }
+
 .btn-mod{
     background-color: #25355B;
     text-decoration: none;
@@ -190,9 +204,6 @@ a {
 }
 .go_top span {
  display:inline-block
-}
-.footer-big {
- padding:105px 0 65px 0
 }
 .footer-big .footer-widget {
  margin-bottom:40px

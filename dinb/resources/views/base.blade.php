@@ -31,11 +31,12 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav mx-md-2 fs-5">
-                        <a class="nav-link nav-mod" href="{{url('/')}}">Accceuil</a>
-                        <a class="nav-link nav-mod" href="{{url('realisation')}}">Réaslisation</a>
-                        <a class="nav-link nav-mod" href="{{url('equipe')}}">Tarification</a>
-                        <a class="nav-link nav-mod" href="{{url('contact')}}">Contact</a>
+                    <button type="button" class="btn-close mobile-btn-close" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-label="Close"></button>
+                    <div class="navbar-nav mx-md-2 fs-5 mobile-text-nav">
+                        <a class="nav-link-sm nav-mod-sm mobile-text-nav" href="{{url('/')}}">Accceuil</a>
+                        <a class="nav-link-sm nav-mod-sm mobile-text-nav" href="{{url('realisation')}}">Réaslisation</a>
+                        <a class="nav-link-sm nav-mod-sm mobile-text-nav" href="{{url('equipe')}}">Tarification</a>
+                        <a class="nav-link-sm nav-mod-sm mobile-text-nav" href="{{url('contact')}}">Contact</a>
                     </div>
                 </div>
             </div>
