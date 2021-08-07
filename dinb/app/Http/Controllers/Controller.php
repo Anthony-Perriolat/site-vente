@@ -22,4 +22,20 @@ class Controller extends BaseController
     {
         return view('contact');
     }
+    public function item1()
+    {
+        return view('item1');
+    }
+    public function item2()
+    {
+        return view('item2');
+    }
+    public function item3()
+    {
+        return view('item3');
+    }
+    public function item4()
+    {
+        return view('item4');
+    }
 }

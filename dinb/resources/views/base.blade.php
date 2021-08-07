@@ -11,7 +11,6 @@
 
     <link rel="stylesheet" href="{{url('css/reset.css')}}"> <!-- CSS reset -->
     <link rel="stylesheet" href="{{url('css/effectstyle.css')}}"> <!-- Resource style -->
-    <script src="{{url('js/modernizr.js')}}"></script> <!-- Modernizr -->
     <link rel="stylesheet" href="{{url('css/basestyle.css')}}">
 
     <title>Accceuil - Developpement Idée Numerique & Buissness</title>
@@ -23,10 +22,10 @@
     <header>
         <nav class="navbar flex-nowrap navbar-expand-lg navbar-light bg-transparent ">
             <div class="container-fluid">
-                <a class="navbar-brand text-dark fs-2" href="{{url('/')}}">
+                <a class="navbar-brand text-dark fs-2 mobile-logo" href="{{url('/')}}">
                     <img src="{{url('img/Logo_DINA.svg')}}" alt="">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler mobile-nav" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup"
                         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -41,6 +40,12 @@
                 </div>
             </div>
         </nav>
+{{--        <div class="bg-alternant-1 social-medias">--}}
+{{--            <a href="#"><img class="social-medias-img" src="{{url('img/facebook.svg')}}"></a>--}}
+{{--            <a href="#"><img class="social-medias-img" src="{{url('img/instagram.svg')}}"></a>--}}
+{{--            <a href="#"><img class="social-medias-img" src="{{url('img/GitHub-icon.png')}}"></a>--}}
+{{--            <a href="#"><img class="social-medias-img" src="{{url('img/linkedin.svg')}}"></a>--}}
+{{--        </div>--}}
     </header>
     <div class="text-dark col-md-6 mx-0 col-8 mt-md-4 bg-text-bg-main">
         <h1 class="mx-2 text-blue-shadow">Creation site design dans le secteur Valentinois</h1>
@@ -145,6 +150,10 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
         crossorigin="anonymous"></script>
+<script src="{{url('js/modernizr.js')}}"></script> <!-- Modernizr -->
+ <script src="{{url('js/jquery-2.1.1.js')}}"></script>
+    <script src="{{url('js/main.js')}}"></script> <!-- Resource jQuery -->
+
 
 
 </html>

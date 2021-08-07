@@ -17,3 +17,7 @@ $router->get('/', 'Controller@home');
 $router->get('/realisation', 'Controller@realisation');
 $router->get('/equipe', 'Controller@equipe');
 $router->get('/contact', 'Controller@contact');
+$router->get('/item1', 'Controller@item1');
+$router->get('/item2', 'Controller@item2');
+$router->get('/item3', 'Controller@item3');
+$router->get('/item4', 'Controller@item4');
