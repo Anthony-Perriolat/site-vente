@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{url('css/effectstyle.css')}}"> <!-- Resource style -->
     <link rel="stylesheet" href="{{url('css/basestyle.css')}}">
 
-    <title>Accceuil - Developpement Idée Numerique & Buissness</title>
+    <title>Accceuil - Developpement Numerique & Buissness</title>
 </head>
 
 <body>
@@ -32,21 +32,15 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <button type="button" class="btn-close mobile-btn-close hid" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-label="Close"></button>
-                    <div class="navbar-nav mx-md-2 fs-5 mobile-text-nav">
+                    <div class="navbar-nav mx-md-2 fs-5 mobile-text-nav ">
                         <a class="nav-mod nav-mod-sm mobile-text-nav" href="{{url('/')}}">Accceuil</a>
-                        <a class="nav-mod nav-mod-sm mobile-text-nav" href="{{url('realisation')}}">Réaslisation</a>
-                        <a class="nav-mod nav-mod-sm mobile-text-nav" href="{{url('equipe')}}">Tarification</a>
-                        <a class="nav-mod nav-mod-sm mobile-text-nav" href="{{url('contact')}}">Contact</a>
+                        <a class="nav-mod nav-mod-sm mobile-text-nav" href="{{url('equipe')}}">L'équipe</a>
+                        <a class="nav-mod nav-mod-sm mobile-text-nav" href="{{url('drone')}}">Prise de vue</a>
+                        <a class="nav-mod nav-mod-sm mobile-text-nav text-light" href="{{url('contact')}}">Contact</a>
                     </div>
                 </div>
             </div>
         </nav>
-{{--        <div class="bg-alternant-1 social-medias">--}}
-{{--            <a href="#"><img class="social-medias-img" src="{{url('img/facebook.svg')}}"></a>--}}
-{{--            <a href="#"><img class="social-medias-img" src="{{url('img/instagram.svg')}}"></a>--}}
-{{--            <a href="#"><img class="social-medias-img" src="{{url('img/GitHub-icon.png')}}"></a>--}}
-{{--            <a href="#"><img class="social-medias-img" src="{{url('img/linkedin.svg')}}"></a>--}}
-{{--        </div>--}}
     </header>
     <div class="text-dark col-md-6 mx-0 col-8 mt-md-4 bg-text-bg-main">
         <h1 class="mx-2 text-blue-shadow">Creation site design dans le secteur Valentinois</h1>
@@ -97,7 +91,7 @@
                 <div class="col-md-3 col-4">
                     <div class="footer-widget">
                         <div class="footer-menu">
-                            <h4 class="footer-widget-title">Our Company</h4>
+                            <h4 class="footer-widget-title">DNB</h4>
                             <ul>
                                 <li>
                                     <a href="#">About Us</a>
@@ -132,9 +126,9 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="copyright-text">
-                            <p>© 2018
-                                <a href="#">DigiPro</a>. All rights reserved. Created by
-                                <a href="#">AazzTech</a>
+                            <p>© 2021
+                                <a href="#"></a>. Tout droit reservé. Crée par
+                                <a href="{{url('/')}}">DNA</a>
                             </p>
                         </div>
                     </div>

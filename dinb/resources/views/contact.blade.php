@@ -1,31 +1,74 @@
-<!doctype html>
-<html lang="en" class="no-js">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends("base")
+@section("content") <div class="form-body">
+    <div class="row">
+        <div class="form-holder bg-blue">
+            <div class="form-content">
+                <div class="form-items">
+                    <h3>Formulaire de contact</h3>
+                    <p>Renseignez vos coordonné et votre demande</p>
+                    <form class="requires-validation" novalidate>
+                        {{ csrf_field() }}
 
-    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-    <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+                        <div class="col-md-12">
+                            <input class="form-control" type="text" name="name" placeholder="Nom" required>
+                        </div>
 
-    <title>3D Folding Panel</title>
-</head>
-<body>
-<div class="cd-fold-content single-page">
-    <h2>Title 1</h2>
-    <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, laboriosam?</em>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus tempora nostrum aut quam praesentium veritatis nisi, odio eius, voluptatibus, iure neque commodi corrupti, inventore laborum fugiat itaque. Pariatur rem veritatis earum quia maxime praesentium accusantium ipsam veniam tenetur hic tempora, unde ipsa esse, aut est repellendus porro, maiores corporis illo!
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus tempora nostrum aut quam praesentium veritatis nisi, odio eius, voluptatibus, iure neque commodi corrupti, inventore laborum fugiat itaque. Pariatur rem veritatis earum quia maxime praesentium accusantium ipsam veniam tenetur hic tempora, unde ipsa esse, aut est repellendus porro, maiores corporis illo!
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, quidem, dolor! Necessitatibus libero suscipit voluptatum, ex voluptates. Ab, sit nam eum, officiis natus sunt totam aperiam id quo sed obcaecati itaque hic quia, facilis magni est sequi minima ex placeat commodi et modi eos consectetur recusandae. Adipisci quaerat voluptatum dolorem doloribus, ullam molestiae praesentium, saepe, voluptate quasi suscipit iure. Ipsam, iste excepturi dolore, explicabo numquam debitis ducimus laudantium? Aperiam perferendis accusantium quis magnam, odit doloribus, officia nesciunt voluptatum quidem voluptatibus veritatis temporibus adipisci dignissimos dolor quod beatae aliquam similique expedita! Distinctio rem tempora temporibus molestias veritatis accusamus ipsa pariatur iusto!
-    </p>
+                        <div class="col-md-12">
+                            <input class="form-control" type="email" name="email" placeholder="Adresse E-mail" required>
+                            <div class="valid-feedback">Email invalide</div>
+                            <div class="invalid-feedback">L'email est vide</div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <select class="form-select mt-3" required>
+                                <option selected disabled value="">Demande</option>
+                                <option value="jweb">Site Vitrine</option>
+                                <option value="sweb">Site e-commerce</option>
+                                <option value="pmanager">Autre</option>
+                            </select>
+                        </div>
+
+
+                        <div class="col-md-12">
+                            <textarea class="form-control my-2" id="exampleFormControlTextarea1" placeholder="Votre projet" required rows="3"></textarea>
+                        </div>
+
+
+                        <div class="col-md-12 mt-3">
+                            <label class="mb-3 mr-1" for="gender">Genre: </label>
+
+                            <input type="radio" class="btn-check" name="gender" id="Entreprise" autocomplete="off" required>
+                            <label class="btn btn-sm btn-outline-secondary" for="Entreprise">Entreprise</label>
+
+                            <input type="radio" class="btn-check" name="gender" id="Particulier" autocomplete="off" required>
+                            <label class="btn btn-sm btn-outline-secondary" for="Particulier">Particulier</label>
+                        </div>
+                        <div class="form-button mt-3">
+                            <button id="submit" type="submit" class="btn btn-primary">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-</body>
-<script src="js/jquery-2.1.1.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
-</body>
-</html>
+@endsection
+
+<script>
+    (function () {
+        'use strict'
+        const forms = document.querySelectorAll('.requires-validation')
+        Array.from(forms)
+            .forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+            })
+    })()
+
+</script>
