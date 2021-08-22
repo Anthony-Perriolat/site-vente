@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" href="{{url('img/logo.png')}}">
     <link href='http://fonts.googleapis.com/css?family=Vollkorn|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
@@ -31,12 +30,12 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <button type="button" class="btn-close mobile-btn-close hid" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-label="Close"></button>
+                    <button type="button" class="btn-close btn-close-white mobile-btn-close hid" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-label="Close"></button>
                     <div class="navbar-nav mx-md-2 fs-5 mobile-text-nav">
                         <a class="nav-mod nav-mod-sm mobile-text-nav" href="{{url('/')}}">Accceuil</a>
                         <a class="nav-mod nav-mod-sm mobile-text-nav" href="{{url('realisation')}}">Réaslisation</a>
                         <a class="nav-mod nav-mod-sm mobile-text-nav" href="{{url('equipe')}}">Tarification</a>
-                        <a class="nav-mod nav-mod-sm mobile-text-nav" href="{{url('contact')}}">Contact</a>
+                        <script type=text/javascript> var name = "pro.aperriolat" ; var domain = "gmail.com" ; var subject = "subject=Demande de site web" ; document.write('<a class="nav-mod nav-mod-sm mobile-text-nav" href="mailto:' + name + '@' + domain + '?' + subject + '">') ; document.write('Contact</a>') ;</script>
                     </div>
                 </div>
             </div>
@@ -50,14 +49,16 @@
     </header>
     <div class="text-dark col-md-6 mx-0 col-8 mt-md-4 bg-text-bg-main">
         <h1 class="mx-2 text-blue-shadow">Creation site design dans le secteur Valentinois</h1>
-        <p class="mx-4 my-3 ">Vous êtes artisan, auto-entrepreneur, fondateur d’une association ou chef d'entreprise ?
+        <p class="mx-4 my-3 fs-4  lh-sm">Vous êtes artisan, auto-entrepreneur, fondateur d’une association ou chef d'entreprise ?
             DINB peut
             créer
             rapidement pour vous un site web efficace qui apportera une plus-value à votre activité.
             Notre spécialité est la conception de sites Web professionnels de type « vitrine » et « E-Commerce ».
         </p>
-        <a href="/realisation.html" class="btn-mod">
-            <span class="btn-contact text-light">Nous-contacter</span>
+        <a href="/realisation.html" >
+            <script type=text/javascript> var name = "pro.aperriolat" ; var domain = "gmail.com" ; var subject = "subject=Demande de site web" ; document.write('<a class="btn-mod" href="mailto:' + name + '@' + domain + '?' + subject + '">') ; document.write('<span class="btn-contact text-light">Nous-contacter</span></a>') ;</script>
+
+
         </a>
     </div>
 </div>
@@ -84,11 +85,11 @@
                             <ul class="contact-details">
                                 <li>
                                     <span class="icon-earphones"></span> Appeler-Nous :
-                                    <a href="tel:344-755-111">07 71 12 17 62</a>
+                                    <a href="tel:07 71 12 17 62">07 71 12 17 62</a>
                                 </li>
                                 <li>
                                     <span class="icon-envelope-open"></span>
-                                    <a href="mailto:pro.aperriolat@gmail.com">pro.aperriolat@gmail.com</a>
+                                    <script type=text/javascript > var name = "pro.aperriolat" ; var domain = "gmail.com" ; var subject = "subject=Demande de site web" ; document.write('<a  href="mailto:' + name + '@' + domain + '?' + subject + '">') ; document.write('pro.aperriolat'+'@gmail.com</a>') ;</script>
                                 </li>
                             </ul>
                         </div>
@@ -133,7 +134,7 @@
                     <div class="col-md-12">
                         <div class="copyright-text">
                             <p>© 2018
-                                <a href="#">DigiPro</a>. All rights reserved. Created by
+                                <a href="#">DNI</a>. All rights reserved. Created by
                                 <a href="#">AazzTech</a>
                             </p>
                         </div>

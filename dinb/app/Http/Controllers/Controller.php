@@ -18,10 +18,6 @@ class Controller extends BaseController
     {
         return view('equipe');
     }
-    public function contact()
-    {
-        return view('contact');
-    }
     public function item1()
     {
         return view('item1');
