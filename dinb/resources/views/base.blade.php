@@ -50,7 +50,7 @@
     </header>
     <div class="text-dark col-md-6 mx-0 col-8 mt-md-4 bg-text-bg-main">
         <h1 class="mx-2 text-blue-shadow">Creation site design dans le secteur Valentinois</h1>
-        <p class="mx-4 my-3 ">Vous êtes artisan, auto-entrepreneur, fondateur d’une association ou chef d'entreprise ?
+        <p class="mx-4 my-3 fs-4  lh-sm">Vous êtes artisan, auto-entrepreneur, fondateur d’une association ou chef d'entreprise ?
             DINB peut
             créer
             rapidement pour vous un site web efficace qui apportera une plus-value à votre activité.
