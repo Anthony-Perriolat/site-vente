@@ -22,7 +22,12 @@ date_default_timezone_set(env('APP_TIMEZONE', 'UTC'));
 $app = new Laravel\Lumen\Application(
     dirname(__DIR__)
 );
+$value = config('app.locale');
+config(['app.locale' => 'fr']);
+$app->configure('app');
+$environment = app()->environment();
 
+$debug = env('APP_DEBUG', true);
 // $app->withFacades();
 
 // $app->withEloquent();
@@ -58,8 +63,7 @@ $app->singleton(
 | the default version. You may register other files below as needed.
 |
 */
-
-$app->configure('app');
+class_alias('Illuminate\Support\Facades\URL', 'URL');
 
 /*
 |--------------------------------------------------------------------------

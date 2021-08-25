@@ -1,5 +1,6 @@
 @extends("base")
 @section("content")
+
     <main class="cd-main">
         <ul class="cd-gallery">
             <li class="cd-item">

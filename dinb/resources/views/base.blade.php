@@ -18,49 +18,61 @@
 
 <body>
 
-<div class="bg-main">
-    <header>
-        <nav class="navbar flex-nowrap navbar-expand-lg navbar-light bg-transparent ">
-            <div class="container-fluid">
-                <a class="navbar-brand text-dark fs-2 mobile-logo" href="{{url('/')}}">
-                    <img src="{{url('img/Logo_DINA.svg')}}" alt="">
-                </a>
-                <button class="navbar-toggler bg-blue navbar-dark mobile-nav" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup"
-                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <button type="button" class="btn-close mobile-btn-close hid" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-label="Close"></button>
-                    <div class="navbar-nav mx-md-2 fs-5 mobile-text-nav">
-                        <a class="nav-mod nav-mod-sm mobile-text-nav" href="{{url('/')}}">Accceuil</a>
-                        <a class="nav-mod nav-mod-sm mobile-text-nav" href="{{url('realisation')}}">Réaslisation</a>
-                        <a class="nav-mod nav-mod-sm mobile-text-nav" href="{{url('equipe')}}">Tarification</a>
-                        <a class="nav-mod nav-mod-sm mobile-text-nav" href="{{url('contact')}}">Contact</a>
-                    </div>
+<header id="bg-main">
+    <nav class="navbar flex-nowrap navbar-expand-lg navbar-light bg-transparent ">
+        <div class="container-fluid">
+            <a class="navbar-brand text-dark fs-2 mobile-logo" href="{{url('/')}}">
+                <img src="{{url('img/Logo_DINA.svg')}}" alt="">
+            </a>
+            <button class="navbar-toggler bg-blue navbar-dark mobile-nav" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <button type="button" class="btn-close mobile-btn-close hid" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-label="Close"></button>
+                <div class="navbar-nav mx-md-2 fs-5 mobile-text-nav">
+                    <a class="nav-mod nav-mod-sm mobile-text-nav" href="{{url('/')}}">Accceuil</a>
+                    <a class="nav-mod nav-mod-sm mobile-text-nav" href="{{url('realisation')}}">Réaslisation</a>
+                    {{--                        <a class="nav-mod nav-mod-sm mobile-text-nav" href="{{url('equipe')}}">Tarification</a>--}}
+                    <script type=text/javascript> var name = "pro.aperriolat";
+                        var domain = "gmail.com";
+                        var subject = "subject=Demande de site web";
+                        document.write('<a class="nav-mod nav-mod-sm mobile-text-nav" href="mailto:' + name + '@' + domain + '?' + subject + '">');
+                        document.write('Contact</a>');</script>
                 </div>
             </div>
-        </nav>
-{{--        <div class="bg-alternant-1 social-medias">--}}
-{{--            <a href="#"><img class="social-medias-img" src="{{url('img/facebook.svg')}}"></a>--}}
-{{--            <a href="#"><img class="social-medias-img" src="{{url('img/instagram.svg')}}"></a>--}}
-{{--            <a href="#"><img class="social-medias-img" src="{{url('img/GitHub-icon.png')}}"></a>--}}
-{{--            <a href="#"><img class="social-medias-img" src="{{url('img/linkedin.svg')}}"></a>--}}
-{{--        </div>--}}
-    </header>
-    <div class="text-dark col-md-6 mx-0 col-8 mt-md-4 bg-text-bg-main">
-        <h1 class="mx-2 text-blue-shadow">Creation site design dans le secteur Valentinois</h1>
-        <p class="mx-4 my-3 fs-4  lh-sm">Vous êtes artisan, auto-entrepreneur, fondateur d’une association ou chef d'entreprise ?
-            DINB peut
-            créer
-            rapidement pour vous un site web efficace qui apportera une plus-value à votre activité.
-            Notre spécialité est la conception de sites Web professionnels de type « vitrine » et « E-Commerce ».
-        </p>
-        <a href="/realisation.html" class="btn-mod">
-            <span class="btn-contact text-light">Nous-contacter</span>
-        </a>
-    </div>
-</div>
+        </div>
+    </nav>
+    {{--        <div class="bg-alternant-1 social-medias">--}}
+    {{--            <a href="#"><img class="social-medias-img" src="{{url('img/facebook.svg')}}"></a>--}}
+    {{--            <a href="#"><img class="social-medias-img" src="{{url('img/instagram.svg')}}"></a>--}}
+    {{--            <a href="#"><img class="social-medias-img" src="{{url('img/GitHub-icon.png')}}"></a>--}}
+    {{--            <a href="#"><img class="social-medias-img" src="{{url('img/linkedin.svg')}}"></a>--}}
+    {{--        </div>--}}
+    @if($isHome)
+        <script>
+            var element = document.getElementById("bg-main");
+            element.classList.add("bg-main");
+        </script>
+        <div class="text-dark col-md-6 mx-0 col-8 bg-text-bg-main">
+            <h1 class="mx-2 text-blue-shadow">Creation site design dans le secteur Valentinois</h1>
+            <p class="mx-4 my-3 fs-4  lh-sm">Vous êtes artisan, auto-entrepreneur, fondateur d’une association ou chef
+                d'entreprise ?
+                DINB peut
+                créer
+                rapidement pour vous un site web efficace qui apportera une plus-value à votre activité.
+                Notre spécialité est la conception de sites Web professionnels de type « vitrine » et « E-Commerce ».
+            </p>
+            <script type=text/javascript> var name = "pro.aperriolat";
+                var domain = "gmail.com";
+                var subject = "subject=Demande de site web";
+                document.write('<a class="btn-mod" href="mailto:' + name + '@' + domain + '?' + subject + '">');
+                document.write('<span class="btn-contact text-light">Nous-contacter</span></a>');</script>
+        </div>
+    @endif
+</header>
 
 
 @yield("content")
@@ -83,12 +95,18 @@
                             </p>
                             <ul class="contact-details">
                                 <li>
-                                    <span class="icon-earphones"></span> Appeler-Nous :
-                                    <a href="tel:344-755-111">07 71 12 17 62</a>
+                                    Appeler-Nous :
+                                    <script type=text/javascript> var first = "07 71 12 17";
+                                        var second = "62";
+                                        document.write('<a href="tel:' + first + ' ' + second + '">');
+                                        document.write(first + ' ' + second);</script>
                                 </li>
                                 <li>
-                                    <span class="icon-envelope-open"></span>
-                                    <a href="mailto:pro.aperriolat@gmail.com">pro.aperriolat@gmail.com</a>
+                                    <script type=text/javascript> var name = "pro.aperriolat";
+                                        var domain = "gmail.com";
+                                        var subject = "subject=Demande de site web";
+                                        document.write('<a  href="mailto:' + name + '@' + domain + '?' + subject + '">');
+                                        document.write('pro.aperriolat' + '@gmail.com</a>');</script>
                                 </li>
                             </ul>
                         </div>
@@ -97,7 +115,7 @@
                 <div class="col-md-3 col-4">
                     <div class="footer-widget">
                         <div class="footer-menu">
-                            <h4 class="footer-widget-title">Our Company</h4>
+                            <h4 class="footer-widget-title">DINA</h4>
                             <ul>
                                 <li>
                                     <a href="#">About Us</a>
@@ -132,9 +150,9 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="copyright-text">
-                            <p>© 2018
-                                <a href="#">DigiPro</a>. All rights reserved. Created by
-                                <a href="#">AazzTech</a>
+                            <p>© 2021
+                                <a href="#">DINA</a>. All rights reserved. Created by
+                                <a href="#">Anthony Perriolat</a>
                             </p>
                         </div>
                     </div>
@@ -152,9 +170,8 @@
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
         crossorigin="anonymous"></script>
 <script src="{{url('js/modernizr.js')}}"></script> <!-- Modernizr -->
- <script src="{{url('js/jquery-2.1.1.js')}}"></script>
-    <script src="{{url('js/main.js')}}"></script> <!-- Resource jQuery -->
-
+<script src="{{url('js/jquery-2.1.1.js')}}"></script>
+<script src="{{url('js/main.js')}}"></script> <!-- Resource jQuery -->
 
 
 </html>

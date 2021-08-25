@@ -4,6 +4,7 @@
 .bg-blue{
     background-color: #25355B;
 }
+
 p{
     line-height: 18px;
 }
@@ -262,7 +263,7 @@ a {
  font-size:18px
 }
 .mini-footer {
- background:#192027;
+ background: #25355B;
  text-align:center;
  padding:32px 0
 }
@@ -312,4 +313,5 @@ a {
 .bg-body{
     background-color: #FBFBFD;
 }
+
 
