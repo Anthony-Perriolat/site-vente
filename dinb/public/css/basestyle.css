@@ -43,6 +43,18 @@ a{
     height: 25px;
     width: 25px;
 }
+.nav-mod:hover {
+    background-color: rgba(249, 241, 241, 0.75);
+    border-radius: 5px 5px 5px 5px;
+}
+.nav-mod-alternative {
+    color: #FBFBFD;
+    opacity: 0.90 !important;
+    width: 10rem;
+    padding: 1rem;
+    margin-left: 15px;
+    text-align: center;
+}
 @media (min-width:991px) {
     .nav-mod {
         color: #25355B;
