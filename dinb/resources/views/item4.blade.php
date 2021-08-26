@@ -1,6 +1,0 @@
-<div class="cd-fold-content single-page">
-    <img src="img/groupe4.jpg"
-         class="animate__animated animate__slideInRigh img-fluid" alt="">
-    <h1 class="m-2 text-blue-shadow">Hebergement & Referencement Web</h1>
-    <p class="mt-3 text-blue-shadow">Nous pouvons vous proposer des solutions d'hebergement de votre site web à bas cout et une optimisation de votre visibilité sur le web. Grace à nos partenairiats </p>
-</div>
