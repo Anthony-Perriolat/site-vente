@@ -74,7 +74,7 @@ a{
     }
 }
 .bg-main{
-    background-image: url(../../../img/bg-main.jpg);
+    background-image: url(../img/bg-main.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
