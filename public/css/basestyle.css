@@ -43,6 +43,11 @@ a{
     height: 25px;
     width: 25px;
 }
+#nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .nav-mod:hover {
     background-color: rgba(249, 241, 241, 0.75);
     border-radius: 5px 5px 5px 5px;
@@ -62,7 +67,9 @@ a{
         width: 10rem;
         padding: 1rem;
         margin-left: 15px;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .text-light{
         color: #FBFBFD;
@@ -132,6 +139,7 @@ a{
         padding-top: 80px;
         border-bottom: #364e85 solid 1px;
         text-align: center;
+        z-index: 5;
     }
     .mobile-text-nav{
         color: #FBFBFD;
@@ -414,7 +422,7 @@ a {
  font-size:18px
 }
 .mini-footer {
- background: #25355B;
+ background-color: #FBFBFD;
  text-align:center;
  padding:32px 0
 }
