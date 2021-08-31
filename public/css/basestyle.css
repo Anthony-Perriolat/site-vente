@@ -50,6 +50,7 @@ a{
 }
 .nav-mod:hover {
     background-color: rgba(249, 241, 241, 0.75);
+    color: #25355B;
     border-radius: 5px 5px 5px 5px;
 }
 .nav-mod-alternative {
@@ -78,6 +79,7 @@ a{
     .nav-mod:hover {
         background-color: rgba(249, 241, 241, 0.75);
         border-radius: 5px 5px 5px 5px;
+        color: #25355B!important;
     }
 }
 .bg-main{
